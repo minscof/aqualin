@@ -69,11 +69,11 @@ Last two characters are hex written minute timer (how long the valve will be ope
 ---------------------------------------------
 automatic cycle
 
-duration in minutes
+duration in minutes : MMMM
 uuid: 0000fcd1-0000-1000-8000-00805f9b34fb
 handle: 0x????
 
 Write bytes/char string see the breakup
 
-Value (payload) [62][02][00][hex:MM]
+Value (payload) [62][02][hex:MMMM]
 
