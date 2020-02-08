@@ -49,6 +49,20 @@ Now edit the two files ""timeronoff_off.sh"" and ""timeronoff_on.sh"". The mac a
 
 # Details
 
+
+---------------------------------------------
+manual start/stop
+
+duration in minutes : MMMM
+uuid: 0000fcd9-0000-1000-8000-00805f9b34fb
+handle: 0x????
+
+Write bytes/char string see the breakup
+
+Value (payload) [6903][00|01][hex:MMMM]
+00=off, 01=on
+
+---------------------------------------------
 Service identified for manual programming:
 uuid: 0000fceb-0000-1000-8000-00805f9b34fb
 handle: 0x0073
