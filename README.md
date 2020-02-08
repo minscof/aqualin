@@ -56,6 +56,7 @@ handle: 0x0073
 Write bytes/char string see the breakup
 
 Value (payload) [7b03][00|01]00[hex:MM]
+00=off 01=on
 
 Examples are:
 
